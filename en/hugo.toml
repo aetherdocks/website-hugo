@@ -1,7 +1,7 @@
 baseURL = 'https://aetherdocks.xyz/'
 languageCode = 'en-us'
 title = 'Æther docks'
-theme = 'aetherdocks_theme'
+theme = 'aetherdocks_theme_en'
 [taxonomies]
  tag = 'tags'
  technology = 'technologies'
