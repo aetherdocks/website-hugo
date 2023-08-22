@@ -1,0 +1,16 @@
+<div class="tags">
+    <ul>
+      {{ range .technologies }}
+      <li><a href="/technologies/{{ . | urlize }}">{{ . }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+  <div class="read-time-date">
+    <div class="read-time">
+      <img class="changing-svg" src="/img/svg/stopwatch.svg" alt="R">
+      <p>{{ .read }} mins</p>
+    </div>
+    <div class="date-published">
+      <p>{{ .Date.Format "January 2, 2006" }}</p>
+    </div>
+</div>

@@ -1,0 +1,48 @@
+{{ partial "header.html" . }}
+<main>
+    <section class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+          <!-- <img src="/img/pfp.jpg" alt="Profile picture" class="hero-pfp"> -->
+          <div class="hero-intro">
+            <h1>Bienvenido a mi rincón de la web</h1>
+            <p>Creo software y proyectos tecnológicos</p>
+          </div>
+        </div>
+      </section>
+      
+<section> <!-- Latest blogposts, CTA & Quick Links -->
+    <h2> Entradas recients del blog </h2>
+    <div class="card-holder">
+        {{ range ( where .Site.RegularPages "Type" "tests" | first 3 ) }} <!-- SHOULD REALLY CHANGE THIS TO BLOGS -->
+          <a class="card" href="{{ .Permalink }}">
+            <div class="card-head">
+              <img src="{{ .Params.image }}" alt="Image">
+            </div>
+            <div class="card-body">
+              <div class="card-body-row-one">
+                <h3>{{ .Params.Title }}</h3>
+              </div>
+              <div class="card-body-row-two">
+                <ul>
+                  {{ range .Params.tags }}
+                  <li>{{ . }}</li>
+                  {{ end }}
+                </ul>
+              </div>
+              <div class="card-body-row-three">
+                <img class="changing-svg" src="/img/svg/stopwatch.svg" alt="time">
+                <p>{{ .Params.read }} mins</p>
+                <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                  {{ .Date.Format "January 2006" }}
+                </time>
+              </div>
+            </div>
+          </a>
+        {{ end }}
+    </div>
+    {{ partial "index-footer.html" }}
+</section>
+</main>
+{{ partial "footer.html" . }}
+{{ partial "script-theme.html" . }}

@@ -1,0 +1,30 @@
+{{ partial "header.html" .Params }}
+
+<main>
+<section>
+
+    <div class="contact-container">
+        <div class="contact-column contact-column-one">
+            <div class="contact-img">
+                <img src="/img/contact.png" alt="QR code">
+            </div>
+            <div class="contact-about">
+                {{ .Content }}
+            </div>
+        </div>
+        <div class="contact-column">
+            <div class="contact-column-content">
+                <h2>About me</h2>
+                <p>I'm deeply immersed in the realm of technology, focused on software development, which I strive to make efficient, simple, and elegant.</p>
+                <p>I've been an aficionado of Linux for over half a decade now, I've attained certification in Microinformatics & Networking, and soon, I'll be adding Web App Development to my arsenal, I'm constantly seeking to refine my skills and craft.</p>
+                <p>I pride myself on being professional, organized, and a practical troubleshooter. For me, it's about ensuring everything operates seamlessly and being someone others can rely on.</p>
+                <p>Feel free to contact me, I'm eager to embark on new projects.</p>
+            </div>
+        </div>
+    </div>    
+
+</section>
+</main>
+{{ partial "footer.html" }}
+
+{{ partial "script-theme.html" }}

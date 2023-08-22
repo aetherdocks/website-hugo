@@ -1,0 +1,23 @@
+{{ partial "header.html" }}
+
+<main>
+<section>
+
+{{ partial "cover-image.html" .Params }}
+
+<h1>{{ .Title }}</h1>
+
+{{ partial "post-metadata.html" .Params }}
+
+{{ partial "toc-container.html" .TableOfContents}}
+
+{{ .Content }}
+
+{{ partial "post-footer.html" }}
+
+</section>
+</main>
+{{ partial "footer.html" }}
+
+{{ partial "script-toc.html" }}
+{{ partial "script-theme.html" }}
