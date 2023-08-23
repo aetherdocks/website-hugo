@@ -5,5 +5,6 @@ draft: true
 read: 0
 technologies: ["tech1", "tech2"]
 image: /img/placeholder.jpg
+imageAlt: "abstract"
 imageCaption: "Placeholder text"
 ---

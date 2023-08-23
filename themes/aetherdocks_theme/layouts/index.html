@@ -17,7 +17,7 @@
         {{ range ( where .Site.RegularPages "Type" "tests" | first 3 ) }} <!-- SHOULD REALLY CHANGE THIS TO BLOGS -->
           <a class="card" href="{{ .Permalink }}">
             <div class="card-head">
-              <img src="{{ .Params.image }}" alt="Image">
+              <img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}">
             </div>
             <div class="card-body">
               <div class="card-body-row-one">
@@ -31,7 +31,7 @@
                 </ul>
               </div>
               <div class="card-body-row-three">
-                <img class="changing-svg" src="/img/svg/stopwatch.svg" alt="time">
+                <img class="changing-svg" src="/img/svg/stopwatch.svg" alt="Time to read">
                 <p>{{ .Params.read }} mins</p>
                 <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
                   {{ .Date.Format "January 2006" }}
