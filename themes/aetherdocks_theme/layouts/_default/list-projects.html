@@ -11,7 +11,7 @@
 {{ range.Data.Pages }}
   <a class="card" href="{{ .Permalink }}">
     <div class="card-head">
-      <img src="{{ .Params.image }}" alt="{{ Params.imageAlt }}">
+      <img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}">
     </div>
     <div class="card-body">
       <div class="card-body-row-one">
