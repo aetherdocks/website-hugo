@@ -2,8 +2,8 @@
 
 This repo contains the files of my personal website. Both the hugo theme with my custom templates, and the actual content
 
-[English link](https://aetherdocks.xyz)
-[Spanish link](https://es.aetherdocks.xyz)
+[English link](https://aetherdocks.xyz)  
+[Spanish link](https://es.aetherdocks.xyz)  
 
 ## Some features
 
