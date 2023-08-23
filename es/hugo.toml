@@ -1,7 +1,0 @@
-baseURL = 'https://aetherdocks.xyz/'
-languageCode = 'es-es'
-title = 'Æther docks'
-theme = 'aetherdocks_theme_es'
-[taxonomies]
- tag = 'tags'
- technology = 'technologies'
