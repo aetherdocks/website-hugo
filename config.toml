@@ -1,5 +1,5 @@
 baseURL = 'https://aetherdocks.xyz/'
-languageCode = 'en-us'
+languageCode = 'es-es'
 title = 'Æther docks'
 theme = 'aetherdocks_theme'
 [taxonomies]
