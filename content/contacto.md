@@ -7,4 +7,4 @@ layout: contact
 {{< changing-svg src="/img/svg/github.svg" >}}  [GitHub.com/aetherdocks](https://github.com/aetherdocks)  
 {{< changing-svg src="/img/svg/linkedin.svg" >}}  [LinkedIn.com/in/aetherdocks](https://linkedin.com/in/aetherdocks)  
 
-{{< changing-svg src="/img/svg/code.svg" >}} [Check out my projects](/projects)
+{{< changing-svg src="/img/svg/code.svg" >}} [Echa un vistazo a mis proyectos](/projects)

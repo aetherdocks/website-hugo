@@ -1,31 +1,30 @@
 ---
-Title: "Legal Disclaimer"
+Title: "Aviso Legal"
 layout: legal
 ---
 
-Welcome to the legal disclaimer page of AetherDocks.xyz. This page outlines the privacy policy, licenses, disclaimer, contact information, and details about changes to our policies.
+Bienvenido a la página de aviso legal de AetherDocks.xyz. En esta página se detallan la política de privacidad, las licencias, el descargo de responsabilidad, la información de contacto y los detalles sobre los cambios en nuestras políticas.
 
-## Privacy Policy
-We are committed to ensuring your privacy and data security. we only use cookies for legitimate interests, which include collecting your preferred website theme choice. Rest assured that your privacy concerns are minimal, as the only data collected is your IP address during your visit to this static website.
+## Politica de Privacidad
+Estamos comprometidos con garantizar tu privacidad y seguridad de datos. Solo utilizamos cookies para intereses legítimos, que incluyen recopilar tu elección de tema preferido para el sitio web. Ten la seguridad de que tus preocupaciones de privacidad son mínimas.
 
-## Licenses
-We uphold strict adherence to licensing agreements for all content on our website. Most icons used are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0) by FontAwesome. Additionally, our fonts are licensed under the Open Font License. The licenses for our fonts are as follows:
+## Licencias
+Mantenemos un estricto cumplimiento de los acuerdos de licencia para todo el contenido en nuestro sitio web. La mayoría de los íconos utilizados tienen licencia bajo la Licencia Internacional Creative Commons Atribución 4.0 (CC BY 4.0) de FontAwesome. Además, nuestras fuentes tipográficas tienen licencia bajo la Licencia de Fuente Abierta. Las licencias para nuestras fuentes son las siguientes:
 
 - Fira Code: [License](https://github.com/tonsky/FiraCode/blob/master/LICENSE)
 - Source Sans Pro: [License](https://www.fontsquirrel.com/license/source-sans-pro)
 - Unica One: [Page](https://fonts.google.com/specimen/Unica+One/about), [License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
 - LogoPixies: [Page](https://www.fontspace.com/logopixies-font-f40772), [License](https://www.fontspace.com/help#license-3)
 
-Furthermore, our website utilizes the GoHugo static web generator under the Apache 2.0 License. All Hugo templates, HTML, CSS, and JavaScript are developed in-house.
+Además, nuestro sitio web utiliza el generador web estático GoHugo bajo la Licencia Apache 2.0. Todos los diseños de Hugo, HTML, CSS y JavaScript son desarrollados internamente. La unica excepcion es el huevo de pascua de [NEKO](https://webneko.net) en la pagina 404. Cuyo uso es gratuito.
 
-## Disclaimer
-Every piece of information provided on our website is intended for informational purposes only. We strive to provide accurate and up-to-date content, but users should be aware that the information presented is not intended to substitute for professional advice.
+## Descargo de Responsabilidad
+Toda la información proporcionada en nuestro sitio web está destinada únicamente con fines informativos. Nos esforzamos por proporcionar contenido preciso y actualizado, pero los usuarios deben ser conscientes de que la información presentada no tiene la intención de sustituir un asesoramiento profesional.
 
-## Contact Information
-Should you have any questions, concerns, or inquiries, feel free to reach me out at rafa@aetherdocks.xyz. We value open communication and are here to address any matters you may wish to discuss.
+## Información de Contacto
+Si tienes alguna pregunta o consulta, no dude en contactarme en rafa@aetherdocks.xyz. Valoramos la comunicación abierta y estamos aquí para abordar cualquier asunto que desees discutir.
 
-## Changes to Policies
-We reserve the right to modify and update the content of this document as needed. Changes to our policies may occur from time to time, and we encourage visitors to periodically review this page for any updates.
+## Cambios en las Políticas
+Nos reservamos el derecho de modificar y actualizar el contenido de este documento según sea necesario. Los cambios en nuestras políticas pueden ocurrir de vez en cuando, y alentamos a los visitantes a revisar periódicamente esta página para obtener actualizaciones.
 
-
-Thank you for taking the time to read our legal disclaimer. We are committed to maintaining transparency and compliance with these terms.
+Gracias por tomarte el tiempo de leer nuestro aviso legal. Estamos comprometidos con mantener la transparencia y el cumplimiento de estos términos.
