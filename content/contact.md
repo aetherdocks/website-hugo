@@ -1,4 +1,5 @@
 ---
+Title: Contact
 layout: contact
 ---
 ## Links
