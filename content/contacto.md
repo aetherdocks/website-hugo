@@ -1,5 +1,5 @@
 ---
-Title: Contact
+Title: Contacto
 layout: contact
 ---
 ## Links
