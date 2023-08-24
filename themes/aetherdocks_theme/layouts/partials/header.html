@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <title>{{ if not .IsHome }}{{ .Title }} | Æ{{ end }}{{ .Site.Title }}</title>
+    {{ if .IsHome -}}
+    <title>{{ .Site.Title}}</title>
+    {{- else -}}
+    <title>{{ .Title }} | Æ</title>
+    {{- end }}
     <link rel="icon" type="image/x-icon" href="/img/svg/favicon.svg">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
