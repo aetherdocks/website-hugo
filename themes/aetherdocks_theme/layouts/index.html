@@ -14,7 +14,7 @@
 <section> <!-- Latest blogposts, CTA & Quick Links -->
     <h2> Recent blog entries </h2>
     <div class="card-holder">
-        {{ range ( where .Site.RegularPages "Type" "tests" | first 3 ) }} <!-- SHOULD REALLY CHANGE THIS TO BLOGS -->
+        {{ range ( where .Site.RegularPages "Type" "blog" | first 3 ) }} <!-- SHOULD REALLY CHANGE THIS TO BLOGS -->
           <a class="card" href="{{ .Permalink }}">
             <div class="card-head">
               <img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}">
