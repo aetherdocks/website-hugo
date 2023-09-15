@@ -133,6 +133,13 @@ section img {
   margin: 1rem auto;
 }
 
+section video {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
 .caption {
   text-align: center;
 }
