@@ -1,7 +1,7 @@
 ---
 title: "I made a farming bot for an 8-year old sonic game"
 date: 2023-09-15T17:20:58+02:00
-draft: true
+draft: false
 read: 6
 tags: ["python", "bot", "videogame"]
 image: /img/runners/banner.jpg
